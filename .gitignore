@@ -99,3 +99,30 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+docs/_build/
+docs/_build/*
+docs/_build/*.*
+docs/_build/*/*.*
+
+/.idea/*
+/.tmp/*
+/build/*
+/typings/*
+/node_modules/*
+.vagrant
+target
+*.iml
+out
+.sass-cache
+src/main/webapp/app/_b/**
+src/main/webapp/app/bower_components/**
+node_modules
+src/main/java/ru/realweb/meta/metaql/parser
+./gradle/wrapper/gradle-wrapper.properties
+
+!/.idea/runConfigurations/
+
+gradlew.bat
+
+docs/themes/

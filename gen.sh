@@ -1,0 +1,1 @@
+swagger-codegen generate -i api.yml --api-package myapiclient -l python -o ./client
